@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(to right, darkred, black, darkblue);
+    
+}
+
+#monster,#game,#mann,#seng{
+    display: none;
+    
+}
+
+.images img{
+    border-radius: 100px;
+}
+
+.images {
+    position: relative;
+}
+.buttons{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
